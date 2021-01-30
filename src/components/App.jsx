@@ -1,6 +1,6 @@
 import React from "react";
 import Entry from "./Entry";
-import emojis from "../emojipedia";
+import emojipedia from "../emojipedia";
 
 function createEntry(emoji){
 return (<Entry 
@@ -19,7 +19,7 @@ function App() {
       </h1>
 
       <dl className="dictionary">
-        {emojis.map(createEntry)}
+        {emojipedia.map(createEntry)}
       </dl>
     </div>
   );
